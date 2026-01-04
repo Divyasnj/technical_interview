@@ -9,6 +9,7 @@ var hoistedVariable
 ```
 
 ### 2. What is the difference between == and === in JavaScript?
-**Answer:**In JavaScript, == is the loose equality operator, which compares two values for equality after performing type coercion if necessary. This means it converts the operands to the same type before comparing.
+**Answer:**
+In JavaScript, == is the loose equality operator, which compares two values for equality after performing type coercion if necessary. This means it converts the operands to the same type before comparing.
 
 === is the strict equality operator, which compares both the values and their types, without performing type conversion.
