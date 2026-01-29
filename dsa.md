@@ -28,3 +28,16 @@ def palin(k):
 k="madam"
 print(palin(k))
 ```
+
+
+### count vowels in string..
+```
+k=['a','e','i','o','u']
+s="divyA"
+s=s.lower()
+v=0
+for i in range(len(s)):
+    if s[i] in k:
+       v+=1
+print(v)
+```
