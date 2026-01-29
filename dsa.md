@@ -12,6 +12,23 @@ a=["zero","one","two","three","four","five","six","seven","eight","nine"]
 n=145
 todig(n,a)
 ```
+
+### palindrome number
+```
+def isPalindrome(self, n):
+		# code here
+		rev=0
+		k=n
+		while n>0:
+		    ld=n%10
+		    rev=rev*10+ld
+		    n=n//10
+	    if k==rev:
+	        return True
+	    else:
+	        return False
+```
+
 ### palindrome string
 ```
 def palin(k):
