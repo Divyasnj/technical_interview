@@ -108,4 +108,12 @@ def isSorted(self, arr) -> bool:
         return True
 ```
 
-
+### multiplication Table
+```
+def getTable(self,n):
+        # code here
+        l=[]
+        for i in range(1,11):
+            l.append(n*i)
+        return l
+```
