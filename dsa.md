@@ -13,6 +13,18 @@ n=145
 todig(n,a)
 ```
 
+### sum of the digits
+```
+def sumOfDigits(self, n):
+        # code here
+        sum=0
+        while n>0:
+            ld=n%10
+            sum+=ld
+            n=n//10
+        return sum
+```
+
 ### Reverse the Number
 ```
 def reverseDigits(self, n):
@@ -86,3 +98,5 @@ def armstrongNumber (self, n):
         else:
             return False
 ```
+
+
