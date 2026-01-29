@@ -41,3 +41,19 @@ for i in range(len(s)):
        v+=1
 print(v)
 ```
+
+### Armstrong number
+```
+def armstrongNumber (self, n):
+        k=n
+        total=0
+        # code here
+        while n>0:
+           ld=n%10
+           total+=ld**3
+           n=n//10
+        if k==total:
+            return True
+        else:
+            return False
+```
