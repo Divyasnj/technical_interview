@@ -13,6 +13,18 @@ n=145
 todig(n,a)
 ```
 
+### Reverse the Number
+```
+def reverseDigits(self, n):
+		# Code here
+		rev=0
+		while n>0:
+		    ld=n%10
+		    rev=rev*10+ld
+		    n=n//10
+	    return rev
+```
+
 ### palindrome number
 ```
 def isPalindrome(self, n):
