@@ -98,5 +98,14 @@ def armstrongNumber (self, n):
         else:
             return False
 ```
+### check if array is sorted or not
+```
+def isSorted(self, arr) -> bool:
+        # code here
+        for i in range(len(arr)-1):
+            if arr[i]>arr[i+1]:
+                return False
+        return True
+```
 
 
