@@ -24,6 +24,7 @@ def palin(k):
        left+=1
        right-=1
     return True
-```
+
 k="madam"
 print(palin(k))
+```
