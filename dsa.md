@@ -1,3 +1,16 @@
+### Missing no. in list
+```
+def missingNum(self, arr):
+        # code here
+        n=len(arr)+1
+        sum=(n*(n+1))/2
+        s=0
+        for i in range(len(arr)):
+            s+=arr[i]
+        return int(sum-s)
+```
+
+
 ### no in words with space..
 ```
 def todig(n,a):
