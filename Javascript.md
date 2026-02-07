@@ -1,3 +1,10 @@
+
+JavaScript is the Programming Language for the Web.
+
+JavaScript can update and change both HTML and CSS.
+
+JavaScript can calculate, manipulate and validate data.
+
 ### [github link](https://github.com/ishwarrimal/frontend-interview-preparation/tree/main/JavaScript)
 # technical_interview
 ### 1. Explain Hoisting in javascript.
