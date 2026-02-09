@@ -1,4 +1,4 @@
- [full stack](https://github.com/Saran-pariyar/100_Days_Of_Frontend_Interview_Questions)
+ ### full stack (https://github.com/Saran-pariyar/100_Days_Of_Frontend_Interview_Questions)
 
 JavaScript is the Programming Language for the Web.
 
@@ -6,7 +6,8 @@ JavaScript can update and change both HTML and CSS.
 
 JavaScript can calculate, manipulate and validate data.
 
-### [github link](https://github.com/ishwarrimal/frontend-interview-preparation/tree/main/JavaScript)
+### react and java (https://github.com/ishwarrimal/frontend-interview-preparation/tree/main/JavaScript)
+
 # technical_interview
 ### 1. Explain Hoisting in javascript.
 **Answer:**
