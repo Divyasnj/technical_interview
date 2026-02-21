@@ -66,3 +66,67 @@ Self-driving cars
 Game AI
 
 Robotics
+
+
+
+
+1️⃣ What is Feature Engineering?
+🎯 Interview Answer:
+
+“Feature engineering is the process of selecting, transforming, and creating relevant input features from raw data to improve the performance of machine learning models. It helps the model focus on important patterns in the data.”
+
+🔎 Example:
+
+In house price prediction:
+
+Raw data → size, location, age
+
+Engineered features → price per square foot, age category
+
+2️⃣ Why does Deep Learning need more data?
+🎯 Interview Answer:
+
+“Deep Learning models have millions of parameters. To properly train these parameters and avoid overfitting, they require large amounts of data. More data helps the model generalize better and learn complex patterns.”
+
+👉 Fewer data = overfitting
+👉 More data = better generalization
+
+3️⃣ Why does Deep Learning require GPUs?
+🎯 Interview Answer:
+
+“Deep Learning involves heavy matrix multiplications and parallel computations. GPUs are optimized for parallel processing, allowing faster training compared to CPUs.”
+
+👉 Neural networks = matrix operations
+👉 GPUs = thousands of cores → faster computation
+
+4️⃣ Difference Between ANN, CNN, and RNN
+🎯 Interview Answer:
+
+“ANN is a basic neural network used for structured data.
+CNN is designed for image data and captures spatial features using convolution layers.
+RNN is designed for sequential data and maintains memory of previous inputs.”
+
+Quick Comparison:
+Model	Best For	Special Feature
+ANN	Tabular data	Fully connected layers
+CNN	Images	Convolution & feature extraction
+RNN	Time-series/Text	Sequential memory
+5️⃣ Can Deep Learning work with small datasets?
+🎯 Interview Answer:
+
+“Yes, but performance may not be optimal. Techniques like transfer learning, data augmentation, and regularization can help improve results when working with small datasets.”
+
+6️⃣ Disadvantages of Deep Learning
+🎯 Interview Answer:
+
+Requires large data
+
+High computational cost
+
+Needs GPUs
+
+Hard to interpret (black box model)
+
+Training takes longer
+
+Risk of overfitting
