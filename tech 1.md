@@ -1,4 +1,4 @@
-```
+
 Good morning ma’am/sir.
 
 My name is Gogulapati Divya Sri Naga Jyothi, and I am currently pursuing B.Tech in Computer Science and Engineering at Rajiv Gandhi University of Knowledge and Technologies, Nuzvid, with a CGPA of 8.8.
@@ -7,4 +7,4 @@ I am a Full-Stack Developer with hands-on experience in the MERN stack — React
 I have built and deployed real-world projects like an Expense Tracker with JWT authentication, a Cable Operator Management System with Google OAuth and role-based access, and an E-commerce Product Management application.
 
 I have solved over 200+ problems on LeetCode, which strengthened my problem-solving and data structures skills. I am particularly interested in backend development, scalable system design, and building secure web applications.
-```
+
