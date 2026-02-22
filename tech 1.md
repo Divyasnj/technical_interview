@@ -8,7 +8,7 @@ I have built and deployed real-world projects like an Expense Tracker with JWT a
 
 I have solved over 200+ problems on LeetCode, which strengthened my problem-solving and data structures skills. I am particularly interested in backend development, scalable system design, and building secure web applications.
 
-### expense tracker
+# expense tracker
 🎯 1️⃣ Start With the Problem (Very Important)
 
 Interviewers LOVE when you start with why, not features.
@@ -90,7 +90,7 @@ The frontend is built with React and Tailwind CSS for responsive design.
 
 
 
-### cable operator management system
+# cable operator management system
 
 🎯 1️⃣ Start With the Problem Statement
 
