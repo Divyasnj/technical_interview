@@ -1,4 +1,5 @@
 ### [java oops](https://www.geeksforgeeks.org/java/object-oriented-programming-oops-concept-in-java/)
+### chatgpt java interview questions (https://chatgpt.com/share/699ae8ff-f5d8-8003-939b-457867abd8bb)
 What is I/O Buffering?
 
 I/O buffering is a technique where data is temporarily stored in a memory area called a buffer during input/output operations.
