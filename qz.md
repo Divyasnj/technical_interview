@@ -1,3 +1,4 @@
+```
 🔹 Responsive Design
 
 One flexible layout
@@ -28,3 +29,4 @@ Since you're preparing for interviews, remember this line:
 
 👉 Responsive = fluid and flexible
 👉 Adaptive = fixed and device-specific
+```
