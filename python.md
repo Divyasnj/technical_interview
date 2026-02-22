@@ -19,9 +19,7 @@ print(a)
 
 
 
-Great topic — interviewers LOVE this question because it tests whether you understand memory & references in Python (not just syntax).
-Let’s understand it slowly and clearly 👇
-
+### shallow copy and deep copy
 1️⃣ First Important Concept: Python Variables are References
 In Python, variables do not store values
 They store addresses (references) to objects in memory
