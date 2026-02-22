@@ -23,6 +23,7 @@ print(a)
 1️⃣ First Important Concept: Python Variables are References
 In Python, variables do not store values
 They store addresses (references) to objects in memory
+```
 a = [1,2,3]
 b = a
 
@@ -34,6 +35,7 @@ b ----/
 So if you change b, a also changes.
 b[0] = 100
 print(a)   # [100,2,3]
+```
 
 Because both point to same memory
 
@@ -50,6 +52,7 @@ copy.deepcopy()  -> Deep Copy
 👉 Inner objects are still shared
 Memory Diagram
 Original list:
+```
 a = [[1,2,3], [4,5,6]]
 
 After shallow copy:
@@ -58,11 +61,13 @@ a  ------>  [ L1 , L2 ]
 b  ------>  [  |     | ]
               ↓     ↓
             [1,2,3] [4,5,6]
+```
 
 Outer list is new
 Inner lists are SAME
 
 Example
+```
 import copy
 
 a = [[1,2,3],[4,5,6]]
@@ -76,6 +81,7 @@ print("b:",b)
 Output
 a: [[99, 2, 3], [4, 5, 6]]
 b: [[99, 2, 3], [4, 5, 6]]
+```
 
 🔴 Change reflected in original
 Why?
@@ -85,6 +91,7 @@ Because inner lists are shared
 👉 Copies EVERYTHING recursively
 👉 Completely independent object
 Memory Diagram
+```
 a  ------>  [ L1 , L2 ]
               |     |
               ↓     ↓
@@ -94,10 +101,12 @@ b  ------>  [ L3 , L4 ]
               |     |
               ↓     ↓
             [1,2,3] [4,5,6]
+```
 
 Now NO shared memory
 
 Example
+```
 import copy
 
 a = [[1,2,3],[4,5,6]]
@@ -111,6 +120,7 @@ print("b:",b)
 Output
 a: [[1, 2, 3], [4, 5, 6]]
 b: [[99, 2, 3], [4, 5, 6]]
+```
 
 🟢 Original unchanged
 
