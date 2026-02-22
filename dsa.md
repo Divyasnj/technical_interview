@@ -138,3 +138,10 @@ def factorial(self, n: int) -> int:
             return 1
         return n*self.factorial(n-1)
 ```
+
+
+### lambda functions
+```
+square=lambda x:x*x
+print(square(10))
+```
